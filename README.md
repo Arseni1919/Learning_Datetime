@@ -1,5 +1,12 @@
 # Learning `datetime`
 
+```python
+from datetime import date, time, datetime
+from datetime import timedelta
+from dateutil.relativedelta import relativedelta
+import time
+import calendar
+```
 
 ## Unix Time
 
@@ -223,57 +230,9 @@ datetime.datetime(2020, 1, 26, 9, 37, 46, 380905)
 relativedelta(days=-1)
 ```
 
-## 
-
-```python
-
-```
-
-## 
-
-```python
-
-```
-
-## 
-
-```python
-
-```
-
-## 
-
-```python
-
-```
-
-## 
-
-```python
-
-```
-
-## 
-
-```python
-
-```
-
-## 
-
-```python
-
-```
-
-## 
-
-```python
-
-```
-
 ## Python `strftime` cheatsheet
 
-Code	Example	& Description
+Code ->	Example	& Description
 
 * %a	Sun	Weekday as locale’s abbreviated name.
 * %A	Sunday	Weekday as locale’s full name.
@@ -308,7 +267,8 @@ Code	Example	& Description
 * %%	%	A literal '%' character.
 
 
+
 ## Credits
 
 - [real python | Using Python datetime to Work With Dates and Times](https://realpython.com/python-datetime/)
-- []()
+- [python | docs](https://docs.python.org/3/library/datetime.html)
