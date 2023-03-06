@@ -121,7 +121,7 @@ To construct a `datetime` from a string using `.strptime()`,
 you have to tell Python what each of the parts of the string represents using formatting codes from the mini-language. 
 You can try this example to see how `.strptime()` works:
 
-```
+```python
 >>> date_string = "01-31-2020 14:45:37"
 >>> format_string = "%m-%d-%Y %H:%M:%S"
 ```
@@ -143,6 +143,8 @@ Here’s an example of how `.strptime()` works:
 
 ```python
 >>> from datetime import datetime
+>>> date_string = "01-31-2020 14:45:37"
+>>> format_string = "%m-%d-%Y %H:%M:%S"
 >>> datetime.strptime(date_string, format_string)
 datetime.datetime(2020, 1, 31, 14, 45, 37)
 ```
